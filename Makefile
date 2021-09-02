@@ -1,5 +1,5 @@
 NAME = apicast
-NAMESPACE = quay.io/harsha544
+NAMESPACE = quay.io/eloycoto
 VERSION ?= tinyproxy
 DOCKER ?= $(shell which docker 2> /dev/null || which podman 2> /dev/null || echo docker)
 
