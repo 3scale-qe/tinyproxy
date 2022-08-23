@@ -1,6 +1,6 @@
-FROM fedora:34
+FROM alpine
 
-RUN dnf install -y tinyproxy
+RUN apk add tinyproxy
 
 USER tinyproxy
 EXPOSE 8888
